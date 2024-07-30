@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="firstpage" id="home">
+        <div class="container">
+            <div class="header">
+                <h2 class="logo"><span>S</span>aravana</h2>
+                
+                <nav>
+                    <ul class="sidemenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutme">About</a></li>
+                        <li><a href="#Portfolio">portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="portfoliomore.html">Projects</a></li>
+                        <i class="fa-solid fa-times" id="closebtn"></i>
+                    </ul>
+                     
+                      <i class="fa-solid fa-bars" class="menu" id="openbtn"></i>
+                     
+                    
+                </nav>
+                
+            </div>
+            <div class="basicdetail">
+                <h2>Hi, I am <span>Saravana</span></h2>
+                <h3>Web Developer</h3>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------about---------- -->
+
+    <div id="aboutme" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="Profileforportfolio.jpg" width="180">
+                </div>
+                <div class="col-2">
+                    <h2 class="sideheading">About Me</h2>
+                    <p>Hi, I'm Saravana,a 2nd Year BE CSE student.I've developed frontend skills through YouTube tutorials and am excited to showcase my projects. Currently studying and learning new technologies to become a proficient full-stack developer.
+                    </p>
+                    <div class="details">
+                        <div class="links">
+                            <div class="skills activelink">
+                                <li class="tablinks " onclick="opentab('skills')">Skills</li></div>
+                            <div class="education">
+                                <li clasblinkss="tablinks" onclick="opentab('education')">Education</li>
+                            </div>
+                        </div>
+                        <div id="skills" class="tabcontents  activetab">
+                        
+                            <li><span>Frontend Skills</span>Html,Css,Javascript</li>
+                            <li><span>Programming Languages</span>Python and C</li>
+                            <li><span>Version Control</span>Git & GitHub</li>
+
+                        </div>
+                        <div id="education" class="tabcontents">
+                            <li><span>HSC</span>I have finished my school education</li>
+                            <li><span>B.E.,(CSE - II year)</span>Now, I am studying B.E.,</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------My work------- -->
+    <div id="Portfolio" class="portfolio">
+        <h3 class="sideheading">My Projects</h3>
+        <div class="container">
+            <div class="work work-1">
+                <img src="Musicpic.jpg">
+                <p>"Building a music player app using HTML, CSS, and JavaScript. Creating a user-friendly interface to play, pause, and navigate music tracks. Leveraging web technologies to deliver a seamless music streaming experience."
+              
+                <a href="music_player.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                </p>
+                <!-- <i class="fa-solid fa-any"></i> -->
+            </div> 
+            <div class="work work-2">
+                <img src="E-commercepic.jpg">
+                <p>"Building a dynamic e-commerce app using HTML, CSS, and JavaScript. Creating a seamless online shopping experience with interactive product displays, cart functionality, and responsive design. Leveraging web technologies to drive engagement and sales."
+                    
+                    
+                    <a href="e_commerce_home.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </p></div> 
+            <div class="work work-3"> 
+                <img src=" Recipepic.jpg">
+                <p>"Building a recipe finder app using HTML, CSS, JavaScript, and API integration. Search and discover new recipes, filter by ingredients, and access cooking instructions. Leveraging web technologies and API data to make cooking easier and more enjoyable."
+              
+                    <a href="recipe_finder.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </p></div> 
+        </div>
+        <div class="btn">
+          <a href="portfoliomore.html">Showmore <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+  
+    </div>
+    <!-- -------- contact ---------  -->
+
+    <div id="Contact" class="contact"> 
+        <div class="container">
+            <div class="contactrow">
+                <div class="column1">
+                    <h3 class="sideheading">Contact </h3>
+                    <p>saravanaanandh2006@gmail.com</p>
+                    <div class="sociallinks">
+                        <a href="https://api.whatsapp.com/send?phone=918610100739&text=Hi"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/itz_me__saravana17?igsh=MW90Z3pmNXZ2bTl3MQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="mailto:saravanaanandh2006@gmail.com?cc=saravanaanandh2006@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/saravanakumar202"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="portfolio.html" download class="btn">Download</a>
+                </div>
+                <div class="column2">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="140b57a9-c323-4719-b039-c4695e767a21">
+                        <input type="text" name="Name"placeholder="Your name"  required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" placeholder="Type Message here"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; created by <i class="fa-solid fa-heart"></i> Saravana</p>
+    </div>
+    <script src="portfoliojs.js"></script>
+</body>
+</html>
