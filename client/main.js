@@ -1,3 +1,4 @@
+// YOUR JAVASCRIPT CODE FOR INDEX.HTML GOES HERE
 const openbtn = document.getElementById('openbtn');
 const closebtn = document.getElementById('closebtn');
 const sideMenu = document.querySelector(".sidemenu");
