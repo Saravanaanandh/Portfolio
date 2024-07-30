@@ -273,7 +273,7 @@ nav i{
 .contactrow .column1 p{
      color: var(--gmailclr);
      margin-left: 30px;
-     font-size: 14px;
+     font-size: clamp(10px,2vw,16px);
 }
 
 .column1>a{
